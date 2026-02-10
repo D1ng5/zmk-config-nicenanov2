@@ -1,0 +1,3 @@
+* zmk config for nicenanov2 for a splitkb_aurora_sweep
+
+for setup https://github.com/zmkfirmware/zmk-cli was used.
