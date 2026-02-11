@@ -4,7 +4,6 @@
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
-#include "keys_de.h"
 
 / {
     keymap {
@@ -17,8 +16,8 @@
         default_layer {
             bindings = <
                 &kp Q   &kp W   &kp E   &kp R   &kp T            &kp Y   &kp U   &kp I   &kp O   &kp P
-                &kp A   &kp S   &kp D   &kp F   &kp G            &kp H   &kp J   &kp K   &kp L   &kp DE_OE
-                &kp Z   &kp X   &kp C   &kp V   &kp B            &kp N   &kp M   &kp DE_AE &kp DE_UE &kp DE_SZ
+                &kp A   &kp S   &kp D   &kp F   &kp G            &kp H   &kp J   &kp K   &kp L   &kp O
+                &kp Z   &kp X   &kp C   &kp V   &kp B            &kp N   &kp M   &kp A &kp U &kp Z
                                &mo 1   &kp LCTRL                 &kp SPACE &mo 2
             >;
         };
@@ -30,7 +29,7 @@
             bindings = <
                 &kp EXCL &kp DQT   &kp HASH  &kp DLLR  &kp PRCNT      &kp CARET &kp AMPS  &kp STAR  &kp LPAR  &kp RPAR
                 &kp LBRC &kp RBRC  &kp LBKT  &kp RBKT  &kp PIPE       &kp PLUS  &kp MINUS &kp EQUAL &kp LT    &kp GT
-                &kp TILDE &kp GRAVE &kp SEMI &kp COLON &kp FSLH       &kp UNDER &kp QMARK &kp AT    &kp BSLH  &kp DE_SZ
+                &kp TILDE &kp GRAVE &kp SEMI &kp COLON &kp FSLH       &kp UNDER &kp QMARK &kp AT    &kp BSLH  &kp_Z
                                 &trans &trans                         &trans &trans
             >;
         };
