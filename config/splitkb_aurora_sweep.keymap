@@ -20,14 +20,5 @@
 &to 1  &kp LCTRL                                                  &kp SPACE  &trans
             >;
         };
-
-        layer_1 {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &kp Z
-&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans                                                    &trans  &to 0
-            >;
-        };
     };
 };
